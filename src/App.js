@@ -5,8 +5,9 @@ import WeatherApp from "./components/WeatherApp/WeatherApp";
 import search_icon from "./components/Assets/search.png";
 import clear_icon from "./components/Assets/clear.png";
 import cloud_icon from "./components/Assets/cloud.png";
-import drizzle_icon from "./components/Assets/drizzle.png";
+import drizzle_icon from "./components/Assets/drizlle.png";
 import humidity_icon from "./components/Assets/humidity.png";
+import rain_icon from "./components/Assets/rain.png";
 
 function App() {
   return (
