@@ -3,6 +3,7 @@ import WeatherApp from "./components/WeatherApp/WeatherApp";
 
 // ---- Images ---- //
 import search_icon from "./components/Assets/search.png";
+import clear_icon from "./components/Assets/clear.png";
 
 function App() {
   return (
