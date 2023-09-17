@@ -14,6 +14,15 @@
     padding-top: 60px;
 }
 
+.top-bar input {
+    display: flex;
+    width: 362px;
+    height: 78px;
+    border: none;
+    outline: none;
+    background: #ebfffc;
+}
+
 .search-icon-img {
     width: 20px;
 }
