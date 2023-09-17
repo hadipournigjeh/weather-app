@@ -12,7 +12,11 @@ import snow_Icon from "../Assets/snow.png";
 import wind_icon from "../Assets/wind.png";
 
 const WeatherApp = () => {
-  return <div className="container"></div>;
+  return (
+    <div className="container">
+      <div className="top-bar"></div>
+    </div>
+  );
 };
 
 export default WeatherApp;
