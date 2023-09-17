@@ -17,7 +17,11 @@ const WeatherApp = () => {
       <div className="top-bar">
         <input type="text" className="cityInput" placeholder="search"></input>
         <div className="search-icon">
-          <img className="search-icon" src={search_icon} alt="search icon" />
+          <img
+            className="search-icon-img"
+            src={search_icon}
+            alt="search icon"
+          />
         </div>
       </div>
     </div>
