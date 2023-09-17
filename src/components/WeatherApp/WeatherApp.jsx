@@ -14,7 +14,9 @@ import wind_icon from "../Assets/wind.png";
 const WeatherApp = () => {
   return (
     <div className="container">
-      <div className="top-bar"></div>
+      <div className="top-bar">
+        <input type="text" className="cityInput"></input>
+      </div>
     </div>
   );
 };
