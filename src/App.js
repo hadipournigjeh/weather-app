@@ -9,6 +9,7 @@ import drizzle_icon from "./components/Assets/drizlle.png";
 import humidity_icon from "./components/Assets/humidity.png";
 import rain_icon from "./components/Assets/rain.png";
 import snow_Icon from "./components/Assets/snow.png";
+import wind_icon from "./components/Assets/wind.png";
 
 function App() {
   return (
