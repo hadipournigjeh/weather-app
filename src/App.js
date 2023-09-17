@@ -5,6 +5,7 @@ import WeatherApp from "./components/WeatherApp/WeatherApp";
 import search_icon from "./components/Assets/search.png";
 import clear_icon from "./components/Assets/clear.png";
 import cloud_icon from "./components/Assets/cloud.png";
+import drizzle_icon from "./components/Assets/drizzle.png
 
 function App() {
   return (
