@@ -28,6 +28,7 @@ const WeatherApp = () => {
         <img src={cloud_icon} alt="cloud icon"></img>
       </div>
       <div className="weather-temp">24°c</div>
+      <div className="weather-location">London</div>
     </div>
   );
 };
