@@ -75,6 +75,11 @@
     gap: 12px;
 }
 
+.data {
+    font-size: 34px;
+    font-weight: 400;
+}
+
 .search-icon-img {
     width: 30px;
 }
