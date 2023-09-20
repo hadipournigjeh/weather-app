@@ -30,7 +30,10 @@ const WeatherApp = () => {
       <div className="weather-temp">24°c</div>
       <div className="weather-location">London</div>
       <div className="data-container">
-        <img src="" className="icon" alt="icon"></img>
+        <div className="element">
+          <img src="" className="icon" alt="icon" />
+          <div className="data"></div>
+        </div>
       </div>
     </div>
   );
