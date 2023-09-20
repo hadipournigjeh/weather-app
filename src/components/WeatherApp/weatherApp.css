@@ -68,6 +68,13 @@
     margin-top: 50px;
 }
 
+.element {
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+    gap: 12px;
+}
+
 .search-icon-img {
     width: 30px;
 }
