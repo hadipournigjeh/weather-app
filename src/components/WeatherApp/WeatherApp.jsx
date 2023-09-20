@@ -24,6 +24,9 @@ const WeatherApp = () => {
           />
         </div>
       </div>
+      <div className="weather-image">
+        <img src={cloud_icon} alt="cloud icon"></img>
+      </div>
     </div>
   );
 };
