@@ -45,6 +45,14 @@
     justify-content: center;
 }
 
+.weather-temp {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 120px;
+    font-weight: 400;
+}
+
 .search-icon-img {
     width: 30px;
 }
