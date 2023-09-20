@@ -61,6 +61,13 @@
     font-weight: 400;
 }
 
+.data-container {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 50px;
+}
+
 .search-icon-img {
     width: 30px;
 }
