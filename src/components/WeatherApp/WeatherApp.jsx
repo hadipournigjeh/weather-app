@@ -14,13 +14,24 @@ import wind_icon from "../Assets/wind.png";
 const WeatherApp = () => {
   let api_key = "4d9570e9cf5a2a370bd77c763eec1b0e";
 
-  const search = () => {};
+  const search = () => {
+    const element = document.getElementsByClassName("cityInput");
+    if (element[0].value === "") {
+      return 0;
+    }
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${element[0].value}&units=Metric&appid=${api_key}`;
+  };
 
   return (
     <div className="container">
       <div className="top-bar">
         <input type="text" className="cityInput" placeholder="search"></input>
-        <div className="search-icon">
+        <div
+          className="search-icon"
+          onClick={() => {
+            search();
+          }}
+        >
           <img
             className="search-icon-img"
             src={search_icon}
