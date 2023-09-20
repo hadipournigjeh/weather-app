@@ -80,6 +80,11 @@
     font-weight: 400;
 }
 
+.text {
+    font-size: 20px;
+    font-weight: 400;
+}
+
 .search-icon-img {
     width: 30px;
 }
