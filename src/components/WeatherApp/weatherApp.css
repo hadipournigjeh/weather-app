@@ -53,6 +53,14 @@
     font-weight: 400;
 }
 
+.weather-location {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+}
+
 .search-icon-img {
     width: 30px;
 }
