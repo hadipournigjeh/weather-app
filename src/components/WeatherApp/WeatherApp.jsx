@@ -38,6 +38,11 @@ const WeatherApp = () => {
 
     if (data.weather[0].icon === "01d" || data.weather[0].icon === "01n") {
       setwicon(clear_icon);
+    } else if (
+      data.weather[0].icon === "02d" ||
+      data.weather[0].icon === "02n"
+    ) {
+      setwicon(cloud_icon);
     }
   };
 
