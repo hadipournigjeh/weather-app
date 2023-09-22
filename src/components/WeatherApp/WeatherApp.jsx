@@ -43,6 +43,11 @@ const WeatherApp = () => {
       data.weather[0].icon === "02n"
     ) {
       setwicon(cloud_icon);
+    } else if (
+      data.weather[0].icon === "03d" ||
+      data.weather[0].icon === "03n"
+    ) {
+      setwicon(drizzle_icon);
     }
   };
 
