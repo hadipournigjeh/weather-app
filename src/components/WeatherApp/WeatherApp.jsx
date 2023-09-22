@@ -48,6 +48,26 @@ const WeatherApp = () => {
       data.weather[0].icon === "03n"
     ) {
       setwicon(drizzle_icon);
+    } else if (
+      data.weather[0].icon === "04d" ||
+      data.weather[0].icon === "04n"
+    ) {
+      setwicon(drizzle_icon);
+    } else if (
+      data.weather[0].icon === "09d" ||
+      data.weather[0].icon === "09n"
+    ) {
+      setwicon(rain_icon);
+    } else if (
+      data.weather[0].icon === "10d" ||
+      data.weather[0].icon === "10n"
+    ) {
+      setwicon(rain_icon);
+    } else if (
+      data.weather[0].icon === "13d" ||
+      data.weather[0].icon === "13n"
+    ) {
+      setwicon(snow_Icon);
     }
   };
 
