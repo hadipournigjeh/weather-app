@@ -68,6 +68,8 @@ const WeatherApp = () => {
       data.weather[0].icon === "13n"
     ) {
       setwicon(snow_Icon);
+    } else {
+      setwicon(clear_icon);
     }
   };
 
